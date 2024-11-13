@@ -1,0 +1,138 @@
+/* Mengatur tampilan body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #80deea);
+    color: #444;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Mengatur container utama dengan gaya modern */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+}
+
+/* Mengatur judul utama */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #00796b;
+    margin: 0;
+}
+
+/* Mengatur gaya navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #00796b;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #004d40;
+}
+
+/* Mengatur gambar profil */
+img {
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #00796b;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tabel dengan desain modern */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #00796b;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    border-radius: 5px 5px 0 0;
+}
+
+td {
+    padding: 12px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Mengatur daftar kemampuan */
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #00796b;
+}
+
+/* Mengatur link */
+a {
+    color: #00796b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mengatur bagian profil menggunakan flexbox */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Efek hover untuk tabel */
+tr:hover td {
+    background-color: #e0f7fa;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
